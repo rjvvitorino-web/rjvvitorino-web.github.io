@@ -43,18 +43,21 @@
       <div class="projects-grid">
 
         <div class="project-card fade-up">
-          <p class="project-domain">Data Science</p>
-          <h2 class="project-title">Titanic ML</h2>
+          <p class="project-domain">Data Science · Machine Learning</p>
+          <h2 class="project-title">Titanic — Machine Learning from Disaster</h2>
           <p class="project-desc">
-            End-to-end classification project on the Titanic dataset covering data preparation, 
-            exploratory analysis, feature engineering, and model evaluation. Demonstrates core 
-            data science methodology applied to a well-understood benchmark problem.
+            End-to-end ML pipeline implemented twice — on a traditional local stack (Python, VS Code, SQL Server) 
+            and on Microsoft Fabric (Lakehouse, MLflow, Direct Lake). Covers EDA, data cleaning, feature engineering, 
+            model comparison (Logistic Regression, Random Forest, Gradient Boosting), and reporting. 
+            Best model: Random Forest at 83.1% cross-validation accuracy. Kaggle competition score: 0.78468.
           </p>
           <div class="tags" style="margin-top:1rem;">
             <span class="tag">Python</span>
-            <span class="tag">Machine Learning</span>
-            <span class="tag">Feature Engineering</span>
-            <span class="tag">Classification</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">Microsoft Fabric</span>
+            <span class="tag">MLflow</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Delta Lake</span>
           </div>
           <div style="margin-top:1.5rem;">
             <a href="https://github.com/rjvvitorino-web/Titanic-Machine-Learning" target="_blank" rel="noopener" class="btn btn-outline" style="font-size:.72rem;padding:.5rem 1rem;">
@@ -64,18 +67,23 @@
         </div>
 
         <div class="project-card fade-up delay-1">
-          <p class="project-domain">Business Intelligence</p>
-          <h2 class="project-title">Contoso BI</h2>
+          <p class="project-domain">Business Intelligence · Data Engineering</p>
+          <h2 class="project-title">Contoso Direct Sales — Self-Service BI</h2>
           <p class="project-desc">
-            Business intelligence solution built on the Contoso dataset. Covers data modelling, 
-            DAX measure development, and Power BI report design — demonstrating end-to-end BI 
-            delivery from source data to executive dashboard.
+            Complete Self-Service BI solution processing 5.4 million sales transactions across 306 stores, 
+            implemented twice in parallel: traditional stack (SQL Server, SSIS, Power BI Desktop) 
+            and Microsoft Fabric (Lakehouse, PySpark, DirectLake). 
+            Star/snowflake schema with 10 tables, 5 hierarchies, row-level security, 
+            and fiscal calendar analysis. Side-by-side comparison of on-premises and cloud-native delivery.
           </p>
           <div class="tags" style="margin-top:1rem;">
             <span class="tag">Power BI</span>
+            <span class="tag">Microsoft Fabric</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">SSIS</span>
+            <span class="tag">PySpark</span>
             <span class="tag">DAX</span>
-            <span class="tag">Data Modelling</span>
-            <span class="tag">Dashboard Design</span>
+            <span class="tag">DirectLake</span>
           </div>
           <div style="margin-top:1.5rem;">
             <a href="https://github.com/rjvvitorino-web/Contoso-Direct-Sales-BI-Project" target="_blank" rel="noopener" class="btn btn-outline" style="font-size:.72rem;padding:.5rem 1rem;">
@@ -135,18 +143,18 @@
           <ul class="tech-list">
             <li>Microsoft Azure</li>
             <li>Microsoft Fabric</li>
-            <li>Power BI</li>
-            <li>Power Platform</li>
+            <li>Power BI / DirectLake</li>
+            <li>Delta Lake / Lakehouse</li>
             <li>SharePoint / Microsoft 365</li>
           </ul>
         </div>
         <div>
           <div class="tech-group-title">Development & Analysis</div>
           <ul class="tech-list">
-            <li>Python</li>
-            <li>DAX</li>
-            <li>SQL</li>
-            <li>Machine Learning</li>
+            <li>Python (pandas, scikit-learn)</li>
+            <li>PySpark</li>
+            <li>DAX · SQL · SSIS</li>
+            <li>MLflow</li>
             <li>Power Apps</li>
           </ul>
         </div>
